@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Result"/>
-    </ItemGroup>
-
-    <ItemGroup>
         <PackageReference Include="Sirh3e.Rust" Version="1.0.0-preview-0005"/>
     </ItemGroup>
 
