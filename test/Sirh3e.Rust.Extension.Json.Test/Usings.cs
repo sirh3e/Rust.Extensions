@@ -1,0 +1,10 @@
+﻿global using System;
+global using FluentAssertions;
+global using Sirh3e.Rust.Extension.Json.Option;
+global using Sirh3e.Rust.Extension.Json.Result;
+global using Sirh3e.Rust.Option;
+global using static Sirh3e.Rust.Option.Extension;
+global using Sirh3e.Rust.Result;
+global using static Sirh3e.Rust.Result.Extension;
+global using Sirh3e.Rust.Panic;
+global using Xunit;
