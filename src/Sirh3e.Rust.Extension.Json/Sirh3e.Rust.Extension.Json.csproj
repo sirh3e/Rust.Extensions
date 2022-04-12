@@ -1,10 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
+        <TargetFrameworks>net462;net5.0;net6.0;netstandard2.0;netstandard2.1</TargetFrameworks>
     </PropertyGroup>
+
+    <ItemGroup Condition="'$(TargetFramework)' == 'net462' Or '$(TargetFramework)' == 'netstandard2.0' Or '$(TargetFramework)' == 'netstandard2.1'">
+        <PackageReference Include="System.Text.Json" Version="6.0.2"/>
+    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Sirh3e.Rust" Version="1.0.0-preview-0005"/>
