@@ -1,4 +1,4 @@
-﻿namespace Sirh3e.Rust.Option;
+﻿namespace Sirh3e.Rust.Extension.Json.Option;
 
 public static class Extension
 {
@@ -8,5 +8,5 @@ public static class Extension
     public static OptionAsJson<TSome> ToJsonObject<TSome>(this Option<TSome>       option)  => option;
     public static Option<TSome>       ToOption<TSome>(this     OptionAsJson<TSome> @object) => @object;
 
-    public static Option<TSome> FromJson<TSome>(string text) => JsonSerializer.Deserialize<OptionAsJson<TSome>>(text) ?? Option<TSome>.None;
+    public static Option<TSome> FromJsonToOption<TSome>(this string text) => JsonSerializer.Deserialize<OptionAsJson<TSome>>(text) ?? Option<TSome>.None;
 }
