@@ -1,0 +1,4 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=71f005cd_002D162a_002D4d81_002D813f_002Dad504ea03bb0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="OptionAsJson_Implicit_Operator_Option_TSome_Is_False" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="D:\Programming\scm\git\github\users\sirh3e\repositories\csharp\Sirh3e.Rust.Extensions\test\Sirh3e.Rust.Extension.Json.Test" Presentation="&amp;lt;Sirh3e.Rust.Extension.Json.Test&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
